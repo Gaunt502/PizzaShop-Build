@@ -1,0 +1,63 @@
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 7
+   Review Assignment
+
+   Customer Information Validation Style Sheet
+   Author:Daniel Dameus 
+   Date:4/3/25   
+
+   Filename: rb_validate.css
+
+*/
+
+
+/* Validation Styles */
+input:focus{
+   background-color: rgb(255, 255, 180);  
+}
+
+select:focus{
+   background-color: rgb(255, 255, 180); 
+}
+
+textarea:focus{
+   background-color: rgb(255, 255, 180); 
+}
+
+#nameBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('rb_okay.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#phoneBox:focus:valid{
+   background-color: rgb(220, 255, 220);
+   background-image: url('rb_okay.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right;
+   background-attachment: fixed;
+}
+
+#nameBox{
+   background-color: rgb(255, 230, 230);
+   background-image: url('rb_warning.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right;
+   background-attachment: fixed;
+}
+
+#phoneBox{
+   background-color: rgb(255, 230, 230);
+   background-image: url('rb_warning.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right;
+   background-attachment: fixed;
+}
+
